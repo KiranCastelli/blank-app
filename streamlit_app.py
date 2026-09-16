@@ -31,8 +31,7 @@ page = st.sidebar.selectbox("Select Page",["Introduction 📘","Visualization �
 st.write("   ")
 st.write("   ")
 st.write("   ")
-df = pd.read_csv("/workspaces/blank-app/lebron_stats - lebron_stats.csv")
-
+df = pd.read_csv("lebron_stats - lebron_stats.csv")
 
 ## Step 02 - Load dataset
 if page == "Introduction 📘":
